@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#gameArea {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #333;
+    background-color: #eef;
+}
+
+.bubble {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(177, 16, 38);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#score-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+#score-form input {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#score-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
